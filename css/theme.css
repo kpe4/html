@@ -1,24 +1,7 @@
-body{
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 20px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
 /* Dark theme */
 body.dark-theme{
     background-color: black;
     color: white;
-}
-
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    width: 100%;
 }
 
 #themeToggle{
@@ -33,3 +16,108 @@ header{
 .dark-theme #themeToggle {
     background-color: grey;
 }
+
+/* css/theme.css */
+
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background: #4caf50;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+header a:hover {
+  color: #e0e0e0;
+}
+
+#themeToggle {
+  background: white;
+  color: #4caf50;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+#themeToggle:hover {
+  background: #e0e0e0;
+  color: #2e7d32;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.add-task {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  transition: box-shadow 0.3s;
+}
+
+#taskInput:focus {
+  box-shadow: 0 0 5px #4caf50;
+  outline: none;
+}
+
+#addTaskBtn {
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#addTaskBtn:hover {
+  background: #388e3c;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid #4caf50;
+  transition: background 0.3s;
+}
+
+#taskList li:hover {
+  background: #f9f9f9;
+}
+
+.task-counter {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
