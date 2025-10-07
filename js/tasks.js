@@ -178,6 +178,3 @@ function saveTasks(){
 // addtask = function(){
 //     originalAddTasks();
 //     saveTasks();
-// };
-
-//
