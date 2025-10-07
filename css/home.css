@@ -1,0 +1,50 @@
+
+.sec3{ 
+    background-color: black;
+    display: flex;
+}
+.div1{
+    margin: 0 auto;
+}
+.div2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    justify-content: space-between;
+    display: flex;
+    font-weight: bold;
+}
+
+.rew{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+}
+h4{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(141, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.review{
+    background-color: rgba(11, 46, 1, 0.774);
+    width: 250px;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.stars{
+    color: gold;
+    margin:  5px 0;
+}
+
+
+

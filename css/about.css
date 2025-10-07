@@ -1,0 +1,50 @@
+.sec1{
+    background-color: black;
+    width: 100%;
+    border-top: 2px solid green;
+    padding: 50px;
+}
+
+.divv{
+    display: flex;
+}
+.column{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 20%;
+    text-align: center;
+}
+.card > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.name{
+    font-size: 22px;
+    color: wheat;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.desc{
+    font-size: 16px;
+    color: #dedede;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.h112{
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 120px;
+    margin-top: 0;
+    text-align: center;
+}

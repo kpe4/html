@@ -1,0 +1,215 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    align-content: center;
+    
+}
+a, p, h1, h2, h3, button{
+    font-family: "Roboto", sans-serif;
+    text-decoration:  none;
+    color: antiquewhite;
+}
+.left-img{
+    border-radius: 10px;
+    width: 35%;
+}
+
+.right-cont > a > button{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    border-radius: 50px;
+    padding: 10px 40px;
+    color: blue;
+    font-weight: 500;
+    font-size: medium;
+    transition: all 0.2s ease;
+}
+
+.right-cont > a > button:hover{
+    background-color: rgba(30, 210, 39, 0.164);
+    border: 2px solid transparent;
+}
+.logo{
+    color: grey;
+    font-size: 40px;
+    font-weight: 1000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header > div > nav > a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+header > div > nav > a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+header > nav{
+    margin-right: 30px
+}
+
+
+.sec1{
+    background-image: url("../images/mc12.png");
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    text-align: center;
+    
+}
+h1{
+    margin: 0;
+    font-size: 60px;
+    color: rgb(0, 92, 104);
+    letter-spacing: 4px;
+}
+h1 > span{
+    color: rgba(255, 238, 0, 0.842);
+}
+
+.sec1 > p{
+    color: rgba(0, 158, 8, 0.726);
+    font-weight: 160px;
+    font-size: 34px;
+    margin-bottom: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sec1 > a > button{
+    background-color: rgb(3, 2, 66);
+    padding: 11px 60px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    font-size: 50px;
+    font-weight: 700px;
+    transition: all 0.14s ease;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sec1 > a > button:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.sec2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    gap: 3%;
+}
+
+.right-cont{
+    width: 25%;
+}
+
+.right-cont > h2{
+    font-size: 50px;
+    color: chartreuse;
+    font-weight: 900px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.right-cont > p{
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 28px;
+    color: #dedede;
+}
+
+.header-cont{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    border-top: 2px solid green;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-cont > nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-desc{
+    width: 20%;
+}
+
+.footer-desc{
+    color: grey;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+footer > div > nav > a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}   
+
+footer > div > nav > a:hover{
+    color: rgba(0, 158, 8, 0.726);
+}
+
+.tg > a > i{
+    color: white;
+    font-size:  40px;
+    transition: all 0.14s ease;
+}
+.tg > a > i:hover{
+    color: rgb(30, 149, 209);
+}
+
+.ig > a > i{
+    color: white;
+    font-size:  40px;
+    transition: all 0.14s ease;
+}
+.ig > a > i:hover{
+    color: rgb(202, 7, 103);
+}
+
+.dc > a > i{
+    color: white;
+    font-size:  40px;
+    transition: all 0.14s ease;
+}
+.dc > a > i:hover{
+    color: rgb(86, 98, 246);
+}
+
+.flexdiv{
+    display: flex;
+}
