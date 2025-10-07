@@ -102,7 +102,7 @@ function updateCounters(){
 function renderTasks(){
     // очищение текущего списка
     taskList.innerHTML = '';
-
+aswdgarh
     // перебираем все элементы в массиве
     // forEach() - метод пребора каждого элемента массива
     tasks.forEach(task => {
@@ -180,4 +180,3 @@ function saveTasks(){
 //     saveTasks();
 // };
 
-// загружаем 
