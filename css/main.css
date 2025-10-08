@@ -9,7 +9,7 @@ header{
     align-content: center;
     
 }
-a, p, h1, h2, h3, button{
+a, h1, h2{
     font-family: "Roboto", sans-serif;
     text-decoration:  none;
     color: antiquewhite;
@@ -212,4 +212,84 @@ footer > div > nav > a:hover{
 
 .flexdiv{
     display: flex;
+}
+
+.donate{
+    width: 100%;
+    background-color: dimgrey;
+    padding: 100px 0;
+}
+
+.donate-cont{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.donate-card > h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    color: black;
+    margin-top: 30px;
+    letter-spacing: 1;
+    font-weight: 800;
+    margin-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.donate-card{
+    background-color: #f4f4f4;
+    width: 18%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.donate-card > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.donate-desc{
+    color: #323232;
+    margin-top: 0;
+}
+
+.buy{
+    background-color: rgba(27, 116, 3, 0.774);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.buy:hover{
+    background-color: transparent;
+    border: 2px solid rgba(27, 116, 3, 0.774);
+    color: rgba(27, 116, 3, 0.774);
+}
+
+.sel{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
+
+.sell{
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: line-through;
+    color: rgb(0, 0, 0, 0.600);
+}
+
+.price{
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 790;
 }
