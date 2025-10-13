@@ -1,0 +1,64 @@
+.login-form{
+    width: 100%;
+    height: 92vh;
+    background-image: url(../images/minecraft-wallpaper-49.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: rgba(0, 122, 6, 0.416);
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    width: 15%;
+    letter-spacing: 1;
+}
+
+h3{
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+input{
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 100px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+input::placeholder{
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.login-btn{
+    background-color: rgba(26, 0, 87, 0.774);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    width: 100%;
+    margin-top: 10px;
+    padding: 15px 0;
+    font-weight: 500;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.login-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgba(26, 0, 87, 0.774);
+}

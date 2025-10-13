@@ -5,14 +5,13 @@ body{
 header{
     background-color: black;
     width: 100%;
-    height: 80px;
+    height: 8vh;
     align-content: center;
     
 }
-a, h1, h2{
+a, p, h1, h2, input, h3, button{
     font-family: "Roboto", sans-serif;
-    text-decoration:  none;
-    color: antiquewhite;
+    text-decoration: none;
 }
 .left-img{
     border-radius: 10px;
@@ -292,4 +291,31 @@ footer > div > nav > a:hover{
     font-size: 22px;
     margin-top: 5px;
     font-weight: 790;
+}
+
+.auth{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.fa-user{
+    color: white;
+    font-size: 17px;
+}
+
+.auth > a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(27, 116, 3, 0.774);
+    padding: 10px 15px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+.auth > a:hover{
+    box-shadow: 0 0 15px rgba(4, 211, 15, 0.5);
+
 }
